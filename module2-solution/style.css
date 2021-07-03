@@ -2,16 +2,22 @@
   box-sizing: border-box;
 }
 
+/*Body of the content*/
+
 body{
 	margin: 0;
 	padding: 0;
   font-family: "Itim";
 }
 
+/*Row*/
+
 .row{
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+/*Heading 1*/
 
 h1 {
   margin-bottom: 15px;
@@ -20,14 +26,17 @@ h1 {
   font-size: 50px;
 }
 
+/*Box Parameters*/
 
 .box{
   width: 100%;
   overflow: none;
+  margin-top: 40px;
 }
 
+/*Box Title*/
 
-.content-name{
+.box-name{
   overflow: none;
   text-align: center;
   border: 2px solid black;
@@ -35,13 +44,15 @@ h1 {
   height: 40px;
   padding: 5px;
   float: right;
-  margin-right: 36px;
+  margin-right: 32px;
   margin-top: 0px;
   font-weight: bold;
   position: relative;
 }
 
-.content{
+/*Box content*/
+
+.box-content{
   border: 2px solid black;
   width: 90%;
   height: auto;
@@ -52,6 +63,8 @@ h1 {
   padding-top: 55px;
   background-color: rgba(0,0,0,0.4);
 }
+
+/*Box Title Name Formats*/
 
 .name1{
   background-color: #F97373;
@@ -68,14 +81,15 @@ h1 {
 }
 
 
-/********** Large devices only **********/
+/*w.r.t sizes*/
+
 @media (min-width: 992px) {
   .col-lg-4 {
   	float: left;
     width: 33.33%;
   }
 }
-/********** Medium devices only **********/
+
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6,.col-md-12 {
     float: left;
@@ -98,7 +112,7 @@ h1 {
   	float: left;
     width: 100%;
   }
-  .content-name{
+  .box-name{
     margin-right: 30px;
   }
 }
