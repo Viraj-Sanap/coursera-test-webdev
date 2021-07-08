@@ -1,0 +1,16 @@
+h1 {
+  font-size: 35px;
+  padding-left: 25px;
+  font-family: 'Otomanopee One', sans-serif;
+  text-align: center;
+  color: #363839;
+}
+
+p {
+  font-size: 25px;
+  padding-left: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #363839;
+}
